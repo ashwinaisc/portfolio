@@ -1,0 +1,228 @@
+
+.ais-header-col{
+    background-color: black;
+}
+.ais-header-block {
+    border: none;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+    padding-top: 35vh;
+ 
+   
+}
+
+.ais-h-block-subheading {
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.ais-h-block-heading { 
+    color:white;
+    text-align: center;
+    text-transform: uppercase;}
+
+.ais-h-block-btn {
+
+    border: none;
+    margin: auto;
+    padding: 0;
+    color: aliceblue;
+    background: transparent;
+  
+
+
+}
+
+
+
+
+
+
+
+.container-fluid.ais-about-cf {
+
+    text-align: center;
+
+   
+}
+.container.ais-about-c {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.row.ais-about-row {}
+
+.col-sm-3.col-lg-12.ais-about-col {
+
+
+}
+
+.ais-about-block {
+    
+    
+}
+
+h1.ais-a-block-heading {
+    color:rgb(255, 0, 0);
+    text-align: center;
+    text-transform: uppercase;}
+
+}
+.ais-a-block-para {
+    color:rgb(255, 0, 0);
+    text-align: left;
+   
+}
+.ais-a-block-img {
+    border-radius: 70%;
+    height: 100%;
+    width: auto;
+    max-height: 20em;
+    
+}
+.ais-about-icons{
+    margin: auto;
+    padding: 0 1em;
+   
+    text-align: center;
+   
+}
+.ais-a-i-block{
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+   
+}
+.a-i-block-icons{
+   font-size: 2em;
+}
+.a-i-block-txt{
+    font-weight: 600;
+    
+}
+
+
+
+
+.ais-skills-cf {
+  
+
+}
+.ais-skills-row{
+    height: 100vh;
+
+}
+.ais-skills-col{
+
+  
+}
+.ais-skills-block {
+  
+}
+
+.ais-skills-block-heading {
+    margin: auto;
+    text-align: left;
+    color: blueviolet;
+    text-transform: uppercase;
+
+
+}
+
+.skills-block-items {
+
+
+}
+
+.skills-block-items-name {
+    color: blue;
+    text-transform: capitalize;
+}
+.skills-block-items-scale{
+    margin: auto;
+}
+.skills-block-scale-back{
+    display: block;
+    height: 1em;
+    width: 100%;
+    border: 1px solid blue;
+    border-radius: 1em;
+    position: relative;
+}
+.skills-block-scale-front{
+    display: block;
+    height: 1em;
+    width: 100%;
+    border: 1px solid blue;
+    color: blue;
+    background: blue;
+    border-radius: 1em;
+    position: absolute;
+    max-width: 30em;
+}
+.skills-block-scale-front.w-80{
+    width: 80%
+}
+
+
+
+/* contact */
+.ais-contact-cf{
+
+
+}
+.ais-contact-c{
+}
+
+.ais-contact-row{
+
+}
+.ais-contact-block-heading{
+    margin: auto;
+    text-align: left;
+    color: blueviolet;
+    text-transform: uppercase; 
+}
+
+.ais-contact-col{
+
+}
+.form-group{
+    text-transform: capitalize;
+    
+
+
+}
+.form-control{
+
+
+}
+.ais-contact-form-button{
+
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .ais-skills-row{
+        height: auto;
+    
+    } 
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
